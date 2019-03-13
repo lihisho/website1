@@ -24,11 +24,11 @@ body{
 	height: 40px;
 	overflow: hidden;
 	background-color: #333;
-	/* background-color: rgb(7, 7, 7); */
 	-moz-border-radius:4px;
     -webkit-border-radius:4px;
 	border-radius:4px;
-	border: double rgb(19, 29, 29);
+    border: double rgb(19, 29, 29);
+    
 }
 /*menu buttons*/
 #menu a 
@@ -37,9 +37,9 @@ body{
   display: block;
   color: #f2f2f2;
   font-size: 18px;
-  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Bookman, URW Bookman L, serif";
   text-align: center;
-  padding: 16px 25px;
+  padding: 10px 20px 10px 20px ;
   text-decoration: none;
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
@@ -48,7 +48,9 @@ body{
 
 /* Change background on mouse-over */
 #menu a:hover {
-	color: crimson;
+    background-color: crimson;
+    color: black;
+    
 }
   
 #menu img
@@ -65,10 +67,11 @@ body{
 h1{
 	font-size: 30px;
 	font-family: Verdana;
-	/* margin-left: 30%;
-	margin-right: 30%; */
 	border: groove #383D41;
-	background-image: url(Images/back14.jpg);
+    background-image: url(Images/head8.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 	-moz-border-radius:20px;
   	-webkit-border-radius:20px;
  	border-radius:20px;
@@ -140,8 +143,8 @@ section{
   
 #contact form
 {
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 28%;
+	margin-right: 28%;
 	/* background-color: beige; */
 	-moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -149,7 +152,9 @@ section{
 }
   
 #spa article{
-	text-align: left;
+    text-align: left;
+    margin-left: 10%;
+	margin-right: 10%;
 }
 
 
