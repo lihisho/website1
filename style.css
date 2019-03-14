@@ -112,6 +112,10 @@ section{
 	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transform: scale(1.5); /* shows the photos bigger*/
 }
+#photos article{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
 
